@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2017/05/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.18.1709.0, Culture=neutral, PublicKeyToken=null" />
+  <pnp:Templates ID="CONTAINER-COLLAB-COMM-SPFX-ASSETS">
+    <pnp:ProvisioningTemplate ID="COLLAB-COMM-SPFX-ASSETS" Version="1" BaseSiteTemplate="STS#0">
+      <pnp:Files>
+        <pnp:File Src="..\assets\2b4a6df7-2e32-4b01-90a0-4625121d6027.json" Folder="SiteAssets/SPFx" Overwrite="true" />
+        <pnp:File Src="..\assets\29654790-062d-4749-acf9-ddcf419d4433.json" Folder="SiteAssets/SPFx" Overwrite="true" />
+        <pnp:File Src="..\assets\collab-comm-footer-application-customizer_4627d761f01a820aac19ed7918f8dbbf.js" Folder="SiteAssets/SPFx" Overwrite="true" />
+        <pnp:File Src="..\assets\collab-comm-header-application-customizer_b117bfba420f7ed473d51870f0cbe2ad.js" Folder="SiteAssets/SPFx" Overwrite="true" />
+        <pnp:File Src="..\assets\f7657595-7af8-4efc-9668-f3b69ae8b5c1.json" Folder="SiteAssets/SPFx" Overwrite="true" />
+        <pnp:File Src="..\assets\hello-world-web-part_2f59313abd67faef4d894bd005e89699.js" Folder="SiteAssets/SPFx" Overwrite="true" />
+        <pnp:File Src="..\assets\spfx-collabcommfooterapplicationcustomizerstrings_en-us_dca22119afc526304d6caf30a95f8fd8.js" Folder="SiteAssets/SPFx" Overwrite="true" />
+        <pnp:File Src="..\assets\spfx-collabcommheaderapplicationcustomizerstrings_en-us_19855c8f419ef5974efe76119dd11509.js" Folder="SiteAssets/SPFx" Overwrite="true" />
+        <pnp:File Src="..\assets\spfx-helloworldwebpartstrings_en-us_536e65149b0acf4d52c0043073b9fc59.js" Folder="SiteAssets/SPFx" Overwrite="true" />
+      </pnp:Files>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

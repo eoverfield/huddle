@@ -1,0 +1,69 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://pixelmilldev1.sharepoint.com/sites/DevCollabCommPlayground1/",
+      "customActions": {
+        "2b4a6df7-2e32-4b01-90a0-4625121d6027": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        },
+        "29654790-062d-4749-acf9-ddcf419d4433": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message2"
+          }
+        },
+        "efd2f534-4fca-4cad-a58c-392751e7daec": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {}
+        }
+      }
+    },
+    "local": {
+      "pageUrl": "https://localhost:5432/workbench"
+    },
+    "collabCommHeader": {
+      "pageUrl": "https://pixelmilldev1.sharepoint.com/sites/DevCollabCommPlayground1/",
+      "customActions": {
+        "2b4a6df7-2e32-4b01-90a0-4625121d6027": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "collabCommFooter": {
+      "pageUrl": "https://pixelmilldev1.sharepoint.com/sites/DevCollabCommPlayground1/",
+      "customActions": {
+        "29654790-062d-4749-acf9-ddcf419d4433": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "collabCommSiteSetup": {
+      "pageUrl": "https://pixelmilldev1.sharepoint.com/sites/DevCollabCommPlayground1/",
+      "customActions": {
+        "efd2f534-4fca-4cad-a58c-392751e7daec": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  },
+  "initialPage": "https://localhost:5432/workbench",
+  "api": {
+    "port": 5432,
+    "entryPath": "node_modules/@microsoft/sp-webpart-workbench/lib/api/"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Collaboration and Communication Blocks",
+    "id": "f16f8923-241c-4a8f-81fd-28f36d13f495",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/collab-comm-blocks.sppkg"
+  }
+}

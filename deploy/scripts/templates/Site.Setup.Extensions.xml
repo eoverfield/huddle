@@ -1,0 +1,17 @@
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2017/05/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.18.1709.0, Culture=neutral, PublicKeyToken=null" />
+  <pnp:Templates ID="CONTAINER-COLLAB-COMM-EXT">
+    <pnp:ProvisioningTemplate ID="COLLAB-COMM-EXT" Version="1" BaseSiteTemplate="GROUP#0">
+      <pnp:CustomActions>
+        <pnp:SiteCustomActions>
+          <pnp:CustomAction Name="CollabCommHeaderApplicationCustomizer" Title="CollabCommHeaderApplicationCustomizer" Location="ClientSideExtension.ApplicationCustomizer"
+                            ClientSideComponentId="2b4a6df7-2e32-4b01-90a0-4625121d6027"
+                            ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}" />
+          <pnp:CustomAction Name="CollabCommFooterApplicationCustomizer" Title="CollabCommFooterApplicationCustomizer" Location="ClientSideExtension.ApplicationCustomizer"
+                            ClientSideComponentId="29654790-062d-4749-acf9-ddcf419d4433"
+                            ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}" />
+        </pnp:SiteCustomActions>
+      </pnp:CustomActions>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

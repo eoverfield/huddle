@@ -1,0 +1,45 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "collab-comm-header-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/collabCommHeader/CollabCommHeaderApplicationCustomizer.js",
+          "manifest": "./src/extensions/collabCommHeader/CollabCommHeaderApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "collab-comm-footer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/collabCommFooter/CollabCommFooterApplicationCustomizer.js",
+          "manifest": "./src/extensions/collabCommFooter/CollabCommFooterApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "hello-world-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
+        }
+      ]
+    },
+    "collab-comm-site-setup-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/collabCommSiteSetup/CollabCommSiteSetupApplicationCustomizer.js",
+          "manifest": "./src/extensions/collabCommSiteSetup/CollabCommSiteSetupApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CollabCommHeaderApplicationCustomizerStrings": "lib/extensions/collabCommHeader/loc/{locale}.js",
+    "CollabCommFooterApplicationCustomizerStrings": "lib/extensions/collabCommFooter/loc/{locale}.js",
+    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
+    "CollabCommSiteSetupApplicationCustomizerStrings": "lib/extensions/collabCommSiteSetup/loc/{locale}.js"
+  }
+}
